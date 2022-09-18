@@ -1,0 +1,479 @@
+hmtl, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+     line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+
+        color: #4d4e53;
+        background-color: #ffffff;
+        font-family: 'Open Sans', Arial, sans-serif;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/************ header  *****************/
+.main-header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #EAF6F6;
+    position:fixed;
+    margin-left: 0;
+    height: 80px;
+    z-index: 1;
+    top: 0;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mylogo{
+    height:100%;
+}
+.nav-link l1{
+    padding-top:0 ;
+  
+    top: 0;
+}
+.mylist{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width:100%;
+    position:relative;
+
+ }
+.list {
+    display: flex;
+    margin: 25px 30px;
+}
+.mylist li{
+    list-style: none;
+    margin: 0 10px;
+    color: blue;
+ }
+
+/************ about me  *****************/
+.aboutme{
+   display: block;
+   top: 60px;
+ 
+}
+.automation-pic{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: .65;
+}
+.mypicture{
+    width: 15%;
+    height: 10%;
+    margin-bottom: 3%;
+    margin-left: 43%;
+   }
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    color:darkblue;
+   top: 180px;
+}
+.intro-container{
+    display: inline;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-size: large;
+    font-weight: bold;
+   
+ }
+.myname{
+    margin-left: 38%;
+    top: 110px;
+}
+
+/************ resume.html *****************/
+h2{
+font-size: 50px;
+text-align: center;
+}
+.work{
+    padding-top: 10px;
+    width: auto;
+    background-color:burlywood;
+     }
+.table-bordered td{
+    border: solid 2px black;
+}
+
+.work-year{
+     width: 5%;
+     /* background-color: antiquewhite; */
+     border: solid 2px black;
+     text-align: left;
+     align-items: center;
+ 
+}
+h3,h4,h5{
+    padding:10px 0;
+    text-align: center;
+    color: blue;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+td{
+    padding:15px 30px;
+    background-color: antiquewhite;
+
+}
+.work-history li{
+    padding:0;
+    margin-left: 20px;
+    width: 100%;
+}
+.tr-header th{
+    border: solid 2px royalblue;
+    padding-bottom: 5px;
+    block-size: 2px;
+}
+.year{
+    margin-top: 90%;
+}
+
+tr{
+    margin: 5px;
+    border: solid 2px black;
+}
+/************ work summary *****************/
+.summary{
+    padding:0;
+    margin:0;
+    width: 100%;
+    text-align: center;
+}
+.header-work,h3{
+    padding-bottom:0;
+    margin-bottom: 1px;
+}
+#work{
+    background-color: #EAF6F6;
+  
+}
+.skills{
+     width: 250px;
+    padding: 0 30px;
+    background-color: #66BFBF;
+}
+.skills > h5{
+    color: black;
+    }
+  .skills li{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+.row{
+    padding:0 15px;
+}
+.row > .skills{
+    padding:0 30px;
+}
+.row h5{
+    font-size: medium;
+}
+/*********experience*********/
+.experiences h3{
+    text-align: left;
+}
+.experiences li{
+    width: 100%;
+    margin-left: 5px;
+
+}
+.experiences p{
+    margin: 0 0 1px 5px;
+}
+.experiences{
+    background-color:aquamarine;
+    
+}
+.experience{
+   padding-bottom: 10px;
+}
+.containers{
+    margin:0;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+    padding: 0;
+  }
+  
+  .plc {
+    text-align: right;
+     color: white;
+    width: 80%;
+  }
+  .troubleshooting{
+    text-align: right;
+     color: white;
+    width: 70%;
+  }
+  .inside-container{
+     background-color: gainsboro;
+     width: 100%;
+  }
+  .coding,.chinese{
+    text-align: right;
+     color: white;
+    width: 30%;
+  }
+  .divider{
+    margin-bottom: 1px;
+  }
+  .english{
+    width: 90%;
+  }
+  .personal{
+  margin: 5px 0 1px;
+  padding-top: 25px;
+  text-align: center;
+
+}
+
+.personal-ul{
+    padding-left: 0;
+}
+/****project****/
+#project{
+    background-color: #8d66bf;
+    padding:10px 10px;
+    margin: 5px 5px;
+}
+#project img{
+    vertical-align: middle;
+    width: 300px;
+    height: 550px;
+    left:200px;
+}
+
+.carousel-control-prev-icon{
+    background-color: #8d66bf;
+}.carousel-control-next-icon{
+    background-color: #8d66bf;
+}
+
+/****Footer****/
+  .copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 20px 0 20px;
+    text-align: center;
+ 
+  }
+ .contact-me{
+    margin: 10px 20px;
+    text-decoration: none;
+ }
+ /*************detail resume*****/
+ hr{
+    border: 0.5px solid #000;
+    margin: 0;
+ }
+ #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color:#EAF6F6 ;
+ }
+#main-doc{
+    background-color: aquamarine;
+
+    position: absolute;
+    margin-left: 280px;
+    border: 2px solid black;
+    margin-bottom: 110px;
+}
+.main-section{
+    margin:3px 10px 3px;
+
+}
+
+  .unit-header {
+    color: black;
+    margin: 10px 0 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: thin;
+    padding: 10px 0 5px;
+    margin: 10px 0 10px;
+  
+  }
+  .main-unit{
+    color:blue;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: thin;
+    margin: 15px;
+    
+  }
+  .header{
+    margin:1px 0 10px;
+  }
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  #navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  section {
+    color: #4d4e53;
+
+    font-size: 0.96em;
+  }
+ 
+
+ .employment{
+    text-align: left;
+    font-size: large;
+   margin-left: 0;
+ }
+ .resume ol {
+    padding-left: 30px;
+}
+.resume ul{
+    padding-left: 30px;
+}
+ 
+  
+ .employment ul{
+    
+    font-size:15px;
+    margin: 5px 0px 0px 10px;
+    
+ }
+.main-section > h5{
+    text-align: left;
+ 
+
+}
+.education{
+     margin-left: 70px;
+}
+.education-sub{
+    margin-left: 150px;
+}
+.education-subs{
+    margin-left: 35px;
+}
+.seminar{
+    margin-top: 5px;
+}
+.seminar > ul{
+    margin-top: 5px;
+    padding-left: 40px;
+    color: blue;
+}
+.skill > ul{
+    margin-top: 5px;
+    padding-left: 40px;
+    color: blue;
+
+}
+.skill > span{
+    padding-top:15px;
+}
+
+.other > ul{
+    margin-top: 5px;
+    padding-left: 40px;
+    color: blue;
+}
+.personal{
+    padding-top: 5px;
+}
+.personal > ul{
+    margin-top: 10px;
+    color: blue;
+ 
+    text-align: left;
+    padding-left:60px;
+}
+  
+.bold {
+    font-size: 1.0rem;
+    font-weight: bold;
+    
+   }
+   .personal-right{
+  
+    margin-left: 0;
+  
+     text-align: left;
+     
+  }
+
+  .character > ul{
+   padding: 0 20px;
+    color: blue;
+    list-style: none;
+    text-align: left;
+
+}
+.character-reference{
+    padding: 5px 0;
+     color: blue;
+     list-style: none;
+     text-align: left;
+ 
+ }
+ .character-sub{
+         color:black;
+
+ }
+   @media (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+   }
